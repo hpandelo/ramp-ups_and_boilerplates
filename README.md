@@ -44,6 +44,14 @@ This repo should be used to collect all those "micro-learnings" of my day-by-day
 - TDD :: Test-Driven Development
 - S.O.L.I.D
 - Clean Architectures
+
+## Projects
+
+  - NODEJS:: Boilerplate
+    - TypeScript
+    - Jest
+    - Eslint
+    - Commit Lint (Conventional Commits :: I'll check how to enable with `pnpm`)
 ## My Links
 
 * [Notion :: hpandelo's FullStack Wiki](https://www.notion.so/hpandelo/Fullstack-Wiki-357948e726e6488d8b26b65085ac6ec0)
