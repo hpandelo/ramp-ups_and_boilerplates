@@ -9,7 +9,7 @@
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "project": "./packages/**/tsconfig.json", /* Check how to move to global */
+        "project": "./apps/**/tsconfig.json", /* Check how to move to global */
         "tsconfigRootDir": "__dirname",
         "ecmaVersion": 2021,
         "sourceType": "module"

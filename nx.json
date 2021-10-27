@@ -1,0 +1,36 @@
+{
+    "extends": "@nrwl/workspace/presets/npm.json",
+    "npmScope": "1TutorialPerDay",
+    "tasksRunnerOptions": {
+        "default": {
+            "runner": "workspace/tasks-runners/default",
+            "options": {
+                "cacheableOperations": [
+                    "build",
+                    "test",
+                    "lint",
+                    "package",
+                    "prepare"
+                ],
+                "accessToken": "MzFiOGJhOTctNjM5NS00MmJiLWE2MTAtMDllYTFlMTBjODU1fHJlYWQtd3JpdGU="
+            }
+        }
+    },
+    "targetDependencies": {
+        "build": [{
+            "target": "build",
+            "projects": "dependencies"
+        }],
+        "prepare": [{
+            "target": "prepare",
+            "projects": "dependencies"
+        }],
+        "package": [{
+            "target": "package",
+            "projects": "dependencies"
+        }]
+    },
+    "affected": {
+        "defaultBase": "main"
+    }
+}

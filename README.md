@@ -29,7 +29,8 @@ This repo should be used to collect all those "micro-learnings" of my day-by-day
 ## Expected Technologies - Sub
 
 - Monorepo
-  - Lerna / Yarn Workspaces (pnpm?)
+  - ~~Lerna / Yarn Workspaces (pnpm?)~~
+  - [Nx](https://nx.app/)
 - React :: Redux-Saga
 - React :: Context-API
 - NextJS :: State Management (Redux?)
