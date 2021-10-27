@@ -1,15 +1,27 @@
 {
     "name": "nodejs-typescript-jest-eslint-boilerplate",
-    "author": "@hpandelo",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "My simple Boilerplate",
+    "main": "src/app.ts",
     "scripts": {
-        "test": "jest",
-        "test:staged": "jest"
+        "start": "ts-node src/app.ts",
+        "dev": "nodemon --watch 'src/' --exec 'ts-node src/app.ts' -e ts",
+        "test": "jest --passWithNoTests --silent --noStackTrace --forceExit",
+        "test:staged": "jest --passWithNoTests --silent --noStackTrace --forceExit",
+        "test:coverage": "jest --passWithNoTests --silent --noStackTrace --forceExit --coverage",
+        "pretest": "eslint --fix"
     },
-    "keywords": [],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hpandelo/1TutorialPerDay.git"
+    },
+    "author": "Helcio R. Macedo Pandelo",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hpandelo/1TutorialPerDay/issues"
+    },
+    "homepage": "https://github.com/hpandelo/1TutorialPerDay#readme",
+    "keywords": [],
     "devDependencies": {
         "@types/jest": "^27.0.2",
         "@types/node": "^16.11.6",
