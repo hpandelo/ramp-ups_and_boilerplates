@@ -1,6 +1,6 @@
 {
     "extends": "@nrwl/workspace/presets/npm.json",
-    "npmScope": "1TutorialPerDay",
+    "npmScope": "1-tutorial-per-day",
     "tasksRunnerOptions": {
         "default": {
             "runner": "workspace/tasks-runners/default",
