@@ -39,6 +39,7 @@ This repo should be used to collect all those "micro-learnings" of my day-by-day
     - Native Modulues written in Rust using [NEON](https://neon-bindings.com/)
   - NodeJS :: WebSockets (not socket.io =P)
   - NodeJS :: Streams
+  - NodeJS :: Moleculer (NodeJS Microservices Framework)
   - GraphQL
   - HTTP3
 
@@ -52,10 +53,7 @@ This repo should be used to collect all those "micro-learnings" of my day-by-day
 ## Projects
 
   - NODEJS:: Boilerplate
-    - TypeScript
-    - Jest
-    - Eslint
-    - Commit Lint (Conventional Commits :: I'll check how to enable with `pnpm`)
+
 ## My Links
 
   * [Notion :: hpandelo's FullStack Wiki](https://www.notion.so/hpandelo/Fullstack-Wiki-357948e726e6488d8b26b65085ac6ec0)
