@@ -2,6 +2,13 @@
  * This test consists in a side-by-side comparison of the original file and the expected output
  * The output is printed in the console
  * Usage: `node ./VanHack.JavascriptTest.js ./text.txt ./text2.txt -s 80 -c 2`
+ *
+ * I'm looking to find the original text that made me to make this code, if I get, I'll add here too =)
+ * I added some extra tests too, like to:
+ *  Check by Strings in -c/-s flags
+ *  Check by Flags messed up with files in arguments list
+ *  Check by negative values in -c/-s flags
+ *    etc..
  */
 
 const fs = require('fs');
