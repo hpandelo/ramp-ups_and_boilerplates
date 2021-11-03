@@ -54,6 +54,10 @@ This repo should be used to collect all those "micro-learnings" of my day-by-day
 
   - NODEJS:: Boilerplate
 
+## Code Challenges
+  Sometimes, instead to create a new project into the day, I'll do some **Code Challenges** (Mainly when participating of some hiring process =P)
+  So.. By this reason, I'll be adding inside the ./apps folder a new one called "Code Challenges" to keep those scripts with some challenges done by me
+
 ## My Links
 
   * [Notion :: hpandelo's FullStack Wiki](https://www.notion.so/hpandelo/Fullstack-Wiki-357948e726e6488d8b26b65085ac6ec0)
