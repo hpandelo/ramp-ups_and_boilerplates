@@ -1,0 +1,32 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "project": "./apps/**/tsconfig.json", /* Check how to move to global */
+        "ecmaVersion": 2021,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint"
+    ],
+    "rules": {
+      "semi": ["error", "never"],
+      "@typescript-eslint/semi": ["error", "never"],
+      "no-console": "off",
+      "no-plusplus": "off",
+      "default-param-last": "off",
+      "class-methods-use-this": "off",
+      "import/prefer-default-export": "off"
+    }
+}

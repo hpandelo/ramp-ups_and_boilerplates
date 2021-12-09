@@ -1,0 +1,44 @@
+{
+    "name": "redux-from-scratch",
+    "version": "1.0.0",
+    "description": "Redux From Scratch",
+    "main": "src/app.ts",
+    "scripts": {
+        "start": "webpack-dev-server --config ./webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hpandelo/1TutorialPerDay.git"
+    },
+    "author": "Helcio R. Macedo Pandelo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hpandelo/1TutorialPerDay/issues"
+    },
+    "homepage": "https://github.com/hpandelo/1TutorialPerDay#readme",
+    "keywords": [],
+    "devDependencies": {
+        "@types/jest": "^27.0.2",
+        "@typescript-eslint/eslint-plugin": "^5.6.0",
+        "@typescript-eslint/parser": "^5.6.0",
+        "eslint": "^8.4.1",
+        "eslint-config-airbnb": "^19.0.2",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.25.3",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-react": "^7.27.1",
+        "eslint-plugin-react-hooks": "^4.3.0",
+        "git-commit-msg-linter": "^3.2.8",
+        "husky": "^7.0.4",
+        "jest": "^27.3.1",
+        "lint-staged": "^11.2.6",
+        "ts-jest": "^27.0.7",
+        "typescript": "^4.4.4",
+        "webpack": "4.41.6",
+        "webpack-cli": "3.3.11",
+        "webpack-dev-server": "3.10.3"
+    },
+    "dependencies": {
+        "redux": "^4.1.2"
+    }
+}
