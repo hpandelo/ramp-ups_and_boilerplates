@@ -2,6 +2,7 @@
 
 ## Websites with Challenges
 
+  - [Code Signal](https://codesignal.com/)
   - [Code Wars](https://www.codewars.com/)
   - [HackerRank](https://www.hackerrank.com/)
   - [Codility](https://www.codility.com/)
