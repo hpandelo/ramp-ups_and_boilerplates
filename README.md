@@ -1,10 +1,10 @@
-# 1 Tutorial per Day
+# RAMP-UPs & BOILERPLATES
 
 ## Summary
 
 This repository intends to "capture" many Youtube tutorials.
 
-The main idea here is to train technologies, techniques, how each dev implements and organize the code.
+The main idea here is trainning technologies, techniques, how each dev implements and organize the code.
 
 ## Usecase
 
